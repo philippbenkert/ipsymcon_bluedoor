@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-class BluetoothMonitor extends IPSModule
+class BlueDoor extends IPSModule
 {
     public function Create()
     {
