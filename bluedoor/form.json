@@ -1,0 +1,24 @@
+{
+  "elements": [
+    {
+      "type": "Select",
+      "name": "DeviceAddress",
+      "caption": "Device",
+      "options": []
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Scan Devices",
+      "onClick": "BluetoothMonitor_ScanDevices($id);"
+    }
+  ],
+  "status": [
+    {
+      "code": 102,
+      "icon": "active",
+      "caption": "BluetoothMonitor active"
+    }
+  ]
+}
