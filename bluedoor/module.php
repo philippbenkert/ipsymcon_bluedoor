@@ -1,5 +1,10 @@
 <?php
 declare(strict_types=1);
+// Nehmen Sie an, dass die Datei module.php die Klasse BlueDoor definiert
+include_once('module.php');
+
+$blueDoor = new BlueDoor(); // Erstellt ein neues BlueDoor Objekt
+$blueDoor->ScanDevices(); // Ruft die ScanDevices Methode auf diesem Objekt auf
 class BlueDoor extends IPSModule
 {
     public function Create()
