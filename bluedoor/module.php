@@ -37,7 +37,7 @@ class BlueDoor extends IPSModule
                     SetValue($this->GetIDForIdent('RSSI'), $rssi);
                 }
             } else {
-                IPS_LogMessage('BluetoothMonitor', 'Failed to get RSSI for device: ' . $address);
+                IPS_LogMessage('BlueDoor', 'Failed to get RSSI for device: ' . $address);
             }
         }
     }
@@ -62,7 +62,7 @@ class BlueDoor extends IPSModule
 
             $this->WriteAttributeString("DiscoveredDevices", json_encode($devices));
         } else {
-            IPS_LogMessage('BluetoothMonitor', 'Failed to scan for devices');
+            IPS_LogMessage('BlueDoor', 'Failed to scan for devices');
         }
     }
     
@@ -92,14 +92,14 @@ class BlueDoor extends IPSModule
         $form["actions"][] = [
             "type" => "Button",
             "label" => "Scan Devices",
-            "onClick" => 'BluetoothMonitor_ScanDevices($id);'
+            "onClick" => 'BlueDoor_ScanDevices($id);'
         ];
         
         //Add the status
         $form["status"][] = [
             "code" => 102,
             "icon" => "active",
-            "caption" => "BluetoothMonitor active"
+            "caption" => "BlueDoor active"
         ];
         
         return json_encode($form);
