@@ -1,0 +1,19 @@
+{
+  "id": "9EDB8852-E72C-42D7-8C57-D753F987F2AD",
+  "name": "BlueDoor",
+  "author": "Philipp Benkert",
+  "url": "https://github.com/philippbenkert/ipsymcon_bluedoor",
+  "version": "1.0",
+  "build": "1",
+  "date": "2023-06-25",
+  "modules": [
+    {
+      "id": "3CFBC54C-9DB1-4C17-870F-644F89871FA8",
+      "type": "device",
+      "name": "bluedoor",
+      "vendor": "Philipp Benkert",
+      "aliases": ["BlueDoor"],
+      "url": "https://github.com/philippbenkert/ipsymcon_bluedoor"
+    }
+  ]
+}
