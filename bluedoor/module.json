@@ -1,0 +1,14 @@
+{
+    "id": "{f1799b27-301f-4a77-aeda-0397c55efc3f}",
+    "name": "BlueDoor",
+    "type": 3,
+    "vendor": "",
+    "aliases": [
+        "Bluetooth Tracker"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "GEO",
+    "url": "https://github.com/philippbenkert/bluedoor"
+}
